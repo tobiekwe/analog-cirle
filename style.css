@@ -27,6 +27,9 @@ body.dark {
   --black-color: #fff;
   --red-color: #e74c3c;
   --ash-color: #4b4d4b;
+  
+
+
 }
 
 
@@ -36,7 +39,24 @@ body.dark {
   align-items: center;
   gap: 60px;
 }
-
+.container h4{
+  position: absolute;
+  font-style: italic;
+  font-family: cursive;
+  color: var(--black-color);
+  border: 1px double rgb(253, 141, 5);
+  /* background: rgb(0, 0, 0); */
+  padding: 10px 5px;
+  border-radius: 50%;
+  letter-spacing: 2px;
+  top: 150px;
+  z-index: 30;
+}
+.container h4:hover{
+  background: rgb(243, 209, 124);
+  color: red;
+  cursor: pointer;
+}
 .container .clock60 {
   z-index: 2;
   display: flex;
@@ -120,6 +140,7 @@ body.dark {
   border-radius: 25px;
   transform-origin: bottom;
   background: var(--red-color);
+  z-index: 32;
 }
 .hand.minute {
   height: 120px;
