@@ -41,4 +41,4 @@ const updateTime = () => {
 setInterval(updateTime, 1000);
 
 //call updateTime function on page load
-// updateTime();
+updateTime();
